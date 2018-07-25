@@ -1,0 +1,20 @@
+
+a[href="about"] {
+    background-color: var(--color_6);
+}
+a[href$=".html"] {
+    background-color: var(--color_7);
+}
+p:not([class]) {
+    background-color: var(--color_3);
+}
+[data-href] {
+    color: var(--color_4);
+}
+a:first-of-type {
+    background-color: var(--color_5);
+}
+
+[data-href~="highlight_me"] {
+    text-decoration: underline;
+}

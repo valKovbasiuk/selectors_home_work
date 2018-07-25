@@ -1,0 +1,15 @@
+div:first-of-type p:first-child ~ p {
+    background-color: var(--color_1);
+}
+
+p.active + h2 {
+    background-color: var(--color_2);
+}
+
+div > span ~ h2 {
+    background-color: var(--color_3);
+}
+
+div ~ h2 {
+    background-color: var(--color_4);
+}
